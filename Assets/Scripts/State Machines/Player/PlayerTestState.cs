@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerTestState : PlayerBaseState
 {
-    float timer = 5f;
+    private float timer;
     public PlayerTestState(PlayerStateMachine stateMachine) : base(stateMachine)
     {
 
@@ -13,21 +13,24 @@ public class PlayerTestState : PlayerBaseState
     public override void Enter()
     {
         Debug.Log("Enter");
+        stateMachine.InputReader.JumpEvent += OnJump;
     }
 
     public override void Tick(float deltaTime)
     {
-        timer -= deltaTime;
-        Debug.Log("Time in this state: " + timer);  
-        if(timer <= 0)
-        {
-            stateMachine.SwitchState(new PlayerTestState(stateMachine));
-        } 
+        timer += deltaTime;
+        Debug.Log(timer);  
     }
 
     public override void Exit()
     {
         Debug.Log("Exit");
+        stateMachine.InputReader.JumpEvent -= OnJump;
+    }
+
+    public void OnJump()
+    {
+        stateMachine.SwitchState(new PlayerTestState(stateMachine));
     }
 }
     
