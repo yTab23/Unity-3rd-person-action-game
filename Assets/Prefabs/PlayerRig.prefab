@@ -154,7 +154,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_YAxis:
-    Value: 0.5
+    Value: 0.6
     m_SpeedMode: 0
     m_MaxSpeed: 2
     m_AccelTime: 0.2
@@ -178,7 +178,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: 0
+    Value: -180
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -1763,6 +1763,22 @@ PrefabInstance:
     - target: {fileID: 8085317706866829556, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 13.7942505
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
+      propertyPath: <Attacks>k__BackingField.Array.data[0].<Force>k__BackingField
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
+      propertyPath: <Attacks>k__BackingField.Array.data[2].<Force>k__BackingField
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
+      propertyPath: <Attacks>k__BackingField.Array.data[0].<ForceTime>k__BackingField
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
+      propertyPath: <Attacks>k__BackingField.Array.data[2].<ForceTime>k__BackingField
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 8236883675927504422, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

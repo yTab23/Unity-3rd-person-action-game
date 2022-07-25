@@ -2480,14 +2480,20 @@ MonoBehaviour:
     <TransitionDuration>k__BackingField: 0.1
     <ComboStateIndex>k__BackingField: 1
     <ComboAttackTime>k__BackingField: 0.6
+    <Force>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
   - <AnimationName>k__BackingField: Attack2
     <TransitionDuration>k__BackingField: 0.1
     <ComboStateIndex>k__BackingField: 2
     <ComboAttackTime>k__BackingField: 0.5
+    <Force>k__BackingField: 15
+    <ForceTime>k__BackingField: 0.35
   - <AnimationName>k__BackingField: Attack3
     <TransitionDuration>k__BackingField: 0.2
     <ComboStateIndex>k__BackingField: -1
     <ComboAttackTime>k__BackingField: 0
+    <Force>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
   <Animator>k__BackingField: {fileID: 8826971539765282611}
 --- !u!114 &2258245136034996526
 MonoBehaviour:
@@ -2560,6 +2566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 8902459023112778511}
+  drag: 0.1
 --- !u!1 &7882049298002338844
 GameObject:
   m_ObjectHideFlags: 0
