@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerTargetingState : PlayerBaseState
 {
-
+    private readonly int TargetingBlendTreeHash = Animator.StringToHash("TargetingBlendTree");
 
     public PlayerTargetingState(PlayerStateMachine stateMachine) : base(stateMachine)
     {
@@ -15,6 +15,7 @@ public class PlayerTargetingState : PlayerBaseState
     public override void Enter()
     {
         stateMachine.InputReader.CancelEvent += OnCancel;
+        stateMachine.Animator.Play(TargetingBlendTreeHash);
     }
 
     public override void Exit()
