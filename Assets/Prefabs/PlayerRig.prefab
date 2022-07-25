@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136985704017845948}
-  m_LocalRotation: {x: -0.03786897, y: -0.000028533319, z: -0.000001081303, w: 0.9992827}
+  m_LocalRotation: {x: -0.037868973, y: -0.00002852902, z: -0.0000010811403, w: 0.9992827}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -955,8 +955,8 @@ MonoBehaviour:
   m_UpdateMethod: 2
   m_Targets:
   - target: {fileID: 3288831915526506602}
-    weight: 1
-    radius: 0
+    weight: 0.25
+    radius: 2
 --- !u!1 &6173032097480751535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,6 +1448,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 26.090218
       objectReference: {fileID: 0}
+    - target: {fileID: 3990197824453875811, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
+      propertyPath: cineTargetGroup
+      value: 
+      objectReference: {fileID: 4457334404283805005}
     - target: {fileID: 4009974758520694361, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 74.69652
