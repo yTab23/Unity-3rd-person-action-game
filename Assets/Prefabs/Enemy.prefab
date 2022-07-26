@@ -1216,6 +1216,7 @@ MonoBehaviour:
   <Controller>k__BackingField: {fileID: 7246071128121166197}
   <ForceReceiver>k__BackingField: {fileID: 1510891300905321917}
   <Agent>k__BackingField: {fileID: 8194861850839729394}
+  <AttackRange>k__BackingField: 1.5
   <MovementSpeed>k__BackingField: 3
   <PlayerChasingRange>k__BackingField: 10
 --- !u!114 &3176276592237033220

@@ -26,7 +26,7 @@ public class EnemyIdleState : EnemyBaseState
             stateMachine.SwitchState(new EnemyChasingState(stateMachine));
             return;
         }
-
+        FacePlayer();
         stateMachine.Animator.SetFloat(SpeedHash, 0f, AnimatorDampTime, deltaTime);
     }
 

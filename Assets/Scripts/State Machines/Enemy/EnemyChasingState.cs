@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyChasingState : EnemyBaseState
 {
-    private readonly int LocomotionBlendTreeHash = Animator.StringToHash("Locmotion");
+    private readonly int LocomotionBlendTreeHash = Animator.StringToHash("Locomotion");
     private readonly int SpeedHash = Animator.StringToHash("Speed");
 
     private const float CrossFadeDuration = 0.1f;
@@ -25,11 +25,20 @@ public class EnemyChasingState : EnemyBaseState
             stateMachine.SwitchState(new EnemyIdleState(stateMachine));
             return;
         }
+        else if(IsInAttackRange())
+        {
+            stateMachine.SwitchState(new EnemyAttackingState(stateMachine));
+            return;
+        }
 
         MoveToPlayer(deltaTime);
+        
+        FacePlayer();
 
         stateMachine.Animator.SetFloat(SpeedHash, 1f, AnimatorDampTime, deltaTime);
     }
+
+
 
     public override void Exit() 
     {
@@ -44,6 +53,13 @@ public class EnemyChasingState : EnemyBaseState
         Move(stateMachine.Agent.desiredVelocity.normalized * stateMachine.MovementSpeed, deltaTime);
 
         stateMachine.Agent.velocity = stateMachine.Controller.velocity;
+    }
+
+    private bool IsInAttackRange()
+    {
+        float playerDistanceSqr = (stateMachine.Player.transform.position - stateMachine.transform.position).sqrMagnitude;
+
+        return playerDistanceSqr <= stateMachine.AttackRange * stateMachine.AttackRange;
     }
 
 }
