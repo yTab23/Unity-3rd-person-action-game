@@ -23,8 +23,7 @@ public class EnemyIdleState : EnemyBaseState
         Move(deltaTime);
         if(IsInChaseRange())
         {
-            Debug.Log("In Range: Chase player");
-            //Transition to chasing state
+            stateMachine.SwitchState(new EnemyChasingState(stateMachine));
             return;
         }
 
