@@ -10,11 +10,13 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
 
     private Controls controls;
     public bool IsAttacking { get; private set; }
+    public bool IsBlocking { get; private set; }
 
     public event Action JumpEvent;
     public event Action DodgeEvent;
     public event Action TargetEvent;
     public event Action CancelEvent;
+    public event Action BlockEvent;
 
 
     private void Start()
@@ -76,4 +78,15 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
         }
     }
 
+    public void OnBlock(InputAction.CallbackContext context)
+    {
+        if(context.performed)
+        {
+            IsBlocking = true;
+        } 
+        else if(context.canceled)
+        {
+            IsBlocking = false;
+        }
+    }
 }
