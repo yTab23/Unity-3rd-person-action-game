@@ -14,6 +14,8 @@ public class EnemyAttackingState : EnemyBaseState
 
     public override void Enter()
     {
+        //FacePlayer(); The enemy will reorient itself after the attack
+
         stateMachine.Weapon.SetAttack(stateMachine.AttackDamage, stateMachine.AttackKnockback);
         stateMachine.Animator.CrossFadeInFixedTime(AttackHash, CrossFadeDuration);
     }
@@ -24,6 +26,8 @@ public class EnemyAttackingState : EnemyBaseState
         {
             stateMachine.SwitchState(new EnemyChasingState(stateMachine));
         }
+
+        FacePlayer(); //The enemy will reorient itself before the attack
     }
 
     public override void Exit(){}
