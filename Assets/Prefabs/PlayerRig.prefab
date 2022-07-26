@@ -1765,6 +1765,10 @@ PrefabInstance:
       value: 13.7942505
       objectReference: {fileID: 0}
     - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
+      propertyPath: <TargetingMovementSpeed>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
       propertyPath: <Attacks>k__BackingField.Array.data[0].<Force>k__BackingField
       value: 15
       objectReference: {fileID: 0}
