@@ -2570,13 +2570,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <InputReader>k__BackingField: {fileID: 2258245136034996526}
   <Controller>k__BackingField: {fileID: 8902459023112778511}
-  <FreeLookMovementSpeed>k__BackingField: 6
-  <TargetingMovementSpeed>k__BackingField: 0
-  <RotationSmoothValue>k__BackingField: 10
   <Targeter>k__BackingField: {fileID: 3990197824453875811}
   <ForceReceiver>k__BackingField: {fileID: 5438546393550827170}
   <Weapon>k__BackingField: {fileID: 1305630132455346299}
   <Animator>k__BackingField: {fileID: 8826971539765282611}
+  <Health>k__BackingField: {fileID: 832504117329793696}
+  <FreeLookMovementSpeed>k__BackingField: 6
+  <TargetingMovementSpeed>k__BackingField: 0
+  <RotationSmoothValue>k__BackingField: 10
   <Attacks>k__BackingField:
   - <AnimationName>k__BackingField: Attack1
     <TransitionDuration>k__BackingField: 0.1
