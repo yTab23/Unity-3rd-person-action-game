@@ -10,19 +10,4 @@ public abstract class EnemyBaseState : State
     {
         this.stateMachine = stateMachine;
     }
-
-    public override void Enter()
-    {
-
-    }
-
-    public override void Tick(float deltaTime)
-    {
-
-    }
-
-    public override void Exit()
-    {
-
-    }
 }
