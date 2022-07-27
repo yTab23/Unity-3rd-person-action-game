@@ -16,7 +16,7 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
     public event Action DodgeEvent;
     public event Action TargetEvent;
     public event Action CancelEvent;
-    public event Action BlockEvent;
+
 
 
     private void Start()
