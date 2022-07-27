@@ -721,6 +721,7 @@ GameObject:
   - component: {fileID: 1055799942629071868}
   - component: {fileID: 7764738996595732875}
   - component: {fileID: 8349237641439187846}
+  - component: {fileID: 6377120033101880518}
   m_Layer: 8
   m_Name: LedgeDetecter
   m_TagString: Untagged
@@ -762,8 +763,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.52421254, y: 0.019578934, z: 0.103576824}
-  m_Center: {x: -0.04479655, y: -0.05603504, z: -0.06044441}
+  m_Size: {x: 0.52421254, y: 0.10165024, z: 0.25888908}
+  m_Center: {x: -0.044796463, y: -0.01499939, z: 0.017211791}
 --- !u!54 &8349237641439187846
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -791,6 +792,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6377120033101880518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862094647829304163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120d86651b669924aa4d1120a11004e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1940963695769857737
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,6 +3611,7 @@ MonoBehaviour:
   <Animator>k__BackingField: {fileID: 8826971539765282611}
   <Health>k__BackingField: {fileID: 832504117329793696}
   <Ragdoll>k__BackingField: {fileID: 2934593096044766680}
+  <LedgeDetecter>k__BackingField: {fileID: 6377120033101880518}
   <FreeLookMovementSpeed>k__BackingField: 6
   <TargetingMovementSpeed>k__BackingField: 5
   <RotationSmoothValue>k__BackingField: 10
