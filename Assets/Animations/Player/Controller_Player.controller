@@ -159,7 +159,7 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 840, y: 180, z: 0}
+  m_ExitPosition: {x: 1100, y: 210, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -8159695758762016343}
 --- !u!206 &-5004948337354971215
@@ -360,7 +360,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 54be2233c575fd14b91220c860cdfd2b, type: 2}
-  m_Tag: 
+  m_Tag: Climbing
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 

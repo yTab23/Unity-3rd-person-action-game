@@ -5,10 +5,12 @@ using UnityEngine;
 public class PlayerHangingState : PlayerBaseState
 {
     private Vector3 ledgeForward;
+    private Vector3 closestPoint;
 
-    public PlayerHangingState(PlayerStateMachine stateMachine, Vector3 ledgeForward) : base(stateMachine) 
+    public PlayerHangingState(PlayerStateMachine stateMachine, Vector3 ledgeForward, Vector3 closestPoint) : base(stateMachine) 
     {
         this.ledgeForward = ledgeForward;
+        this.closestPoint = closestPoint;
     }
 
     private readonly int HangingHash = Animator.StringToHash("Hanging");
@@ -18,6 +20,14 @@ public class PlayerHangingState : PlayerBaseState
     public override void Enter()
     {
         stateMachine.transform.rotation = Quaternion.LookRotation(ledgeForward, Vector3.up);
+
+        stateMachine.Controller.enabled = false;
+        
+        stateMachine.Controller.enabled = false;
+        stateMachine.transform.position = closestPoint - (stateMachine.LedgeDetector.transform.position - stateMachine.transform.position);
+        stateMachine.Controller.enabled = true;
+
+
         stateMachine.Animator.CrossFadeInFixedTime(HangingHash, CrossFadeDuration);
     }
 

@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,7 +21,7 @@ public class PlayerJumpingState : PlayerBaseState
 
         stateMachine.Animator.CrossFadeInFixedTime(JumpHash, CrossFadeDuration);
 
-        stateMachine.LedgeDetecter.OnLedgeDetect += HandleLedgeDetect;
+        stateMachine.LedgeDetector.OnLedgeDetect += HandleLedgeDetect;
     }
 
     public override void Tick(float deltaTime)
@@ -40,11 +39,11 @@ public class PlayerJumpingState : PlayerBaseState
 
     public override void Exit()
     {
-        stateMachine.LedgeDetecter.OnLedgeDetect -= HandleLedgeDetect;
+        stateMachine.LedgeDetector.OnLedgeDetect -= HandleLedgeDetect;
     }
 
-    private void HandleLedgeDetect(Vector3 ledgeForward)
+    private void HandleLedgeDetect(Vector3 ledgeForward, Vector3 closestPoint)
     {
-        stateMachine.SwitchState(new PlayerHangingState(stateMachine, ledgeForward));
-    }   
+        stateMachine.SwitchState(new PlayerHangingState(stateMachine, ledgeForward, closestPoint));
+    }
 }
