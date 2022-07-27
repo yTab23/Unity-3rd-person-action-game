@@ -24,8 +24,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136985704017845948}
-  m_LocalRotation: {x: -0.00051028846, y: -0.053105373, z: -0.000027137356, w: 0.9985888}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000009536743}
+  m_LocalRotation: {x: 0.014373816, y: 0.00000008568168, z: 0.0000000013387762, w: 0.9998967}
+  m_LocalPosition: {x: -0.00000020229513, y: 0.000000057129583, z: -0.0000018957298}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69,7 +69,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0164835, y: 1}
+    m_SensorSize: {x: 1.3983517, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -104,8 +104,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136985704279022090}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.532357, y: 2.256375, z: -4.222703}
+  m_LocalRotation: {x: -0.01504158, y: -0.05309936, z: -0.0007999176, w: 0.9984757}
+  m_LocalPosition: {x: 12.5324135, y: 2.254258, z: -4.223241}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -145,7 +145,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0164835, y: 1}
+    m_SensorSize: {x: 1.3983517, y: 1}
   m_Transitions:
     m_BlendHint: 2
     m_InheritPosition: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_YAxis:
-    Value: 0.6
+    Value: 0.5995486
     m_SpeedMode: 0
     m_MaxSpeed: 2
     m_AccelTime: 0.2
@@ -178,7 +178,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -180
+    Value: 180
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 0.9497144, z: -5.937143}
+  m_FollowOffset: {x: 0, y: 0.9475973, z: -5.9376836}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -343,7 +343,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -180
+    Value: 180
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 0.9497144, z: -5.937143}
+  m_FollowOffset: {x: 0, y: 0.9475973, z: -5.9376836}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -503,7 +503,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -180
+    Value: 180
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -575,8 +575,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136985705356953139}
-  m_LocalRotation: {x: -0.036783643, y: -0.05306936, z: -0.0019561704, w: 0.9979112}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000009536743}
+  m_LocalRotation: {x: -0.021956872, y: 0.00000008940697, z: 0.0000000045401976, w: 0.99975896}
+  m_LocalPosition: {x: -0.00000040459025, y: 0.000000114259166, z: -0.0000037914597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -620,7 +620,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0164835, y: 1}
+    m_SensorSize: {x: 1.3983517, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 0.9497144, z: -5.937143}
+  m_FollowOffset: {x: 0, y: 0.9475973, z: -5.9376836}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -708,7 +708,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -180
+    Value: 180
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -780,8 +780,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136985705569435153}
-  m_LocalRotation: {x: -0.018674023, y: -0.053096093, z: -0.0009930924, w: 0.9984143}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000009536743}
+  m_LocalRotation: {x: -0.0038161734, y: 0.00000010058284, z: 0.0000000033178367, w: 0.9999927}
+  m_LocalPosition: {x: -0.00000020229513, y: 0.000000057129583, z: -0.0000018957298}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -825,7 +825,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0164835, y: 1}
+    m_SensorSize: {x: 1.3983517, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0164835, y: 1}
+    m_SensorSize: {x: 1.3983517, y: 1}
   m_Transitions:
     m_BlendHint: 2
     m_InheritPosition: 1
@@ -1781,26 +1781,6 @@ PrefabInstance:
     - target: {fileID: 8085317706866829556, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 13.7942505
-      objectReference: {fileID: 0}
-    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
-      propertyPath: <TargetingMovementSpeed>k__BackingField
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
-      propertyPath: <Attacks>k__BackingField.Array.data[0].<Force>k__BackingField
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
-      propertyPath: <Attacks>k__BackingField.Array.data[2].<Force>k__BackingField
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
-      propertyPath: <Attacks>k__BackingField.Array.data[0].<ForceTime>k__BackingField
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 8142924377057490015, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
-      propertyPath: <Attacks>k__BackingField.Array.data[2].<ForceTime>k__BackingField
-      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 8236883675927504422, guid: ea19a2a5517582f4ebb15b32892e353d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

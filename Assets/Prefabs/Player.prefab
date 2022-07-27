@@ -3517,18 +3517,19 @@ MonoBehaviour:
   <Health>k__BackingField: {fileID: 832504117329793696}
   <Ragdoll>k__BackingField: {fileID: 2934593096044766680}
   <FreeLookMovementSpeed>k__BackingField: 6
-  <TargetingMovementSpeed>k__BackingField: 0
+  <TargetingMovementSpeed>k__BackingField: 5
   <RotationSmoothValue>k__BackingField: 10
   <DodgeDuration>k__BackingField: 0.1
   <DodgeLength>k__BackingField: 0.75
   <DodgeCooldown>k__BackingField: 1
+  <JumpForce>k__BackingField: 1
   <Attacks>k__BackingField:
   - <AnimationName>k__BackingField: Attack1
     <TransitionDuration>k__BackingField: 0.1
     <ComboStateIndex>k__BackingField: 1
     <ComboAttackTime>k__BackingField: 0.6
-    <Force>k__BackingField: 0
-    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 15
+    <ForceTime>k__BackingField: 0.35
     <Damage>k__BackingField: 10
     <Knockback>k__BackingField: 5
   - <AnimationName>k__BackingField: Attack2
@@ -3543,8 +3544,8 @@ MonoBehaviour:
     <TransitionDuration>k__BackingField: 0.2
     <ComboStateIndex>k__BackingField: -1
     <ComboAttackTime>k__BackingField: 0
-    <Force>k__BackingField: 0
-    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 20
+    <ForceTime>k__BackingField: 0.35
     <Damage>k__BackingField: 20
     <Knockback>k__BackingField: 15
 --- !u!114 &2258245136034996526
